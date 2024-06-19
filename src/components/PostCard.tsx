@@ -1,7 +1,7 @@
 // const React = require("react");
 import React from "react";
 
-const PostCard = ({ post }) => {
+const PostCard = ({ post }: any) => {
   console.log(post.title);
   return (
     <div

@@ -1,5 +1,4 @@
 // const React = require("react");
-import React from "react";
 
 const PostCard = ({ post }: any) => {
   console.log(post.title);

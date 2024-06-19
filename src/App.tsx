@@ -1,5 +1,4 @@
 // Supports weights 100-900
-import React from "react";
 // import "@fontsource-variable/inter";
 // Supports weights 400-900
 import "@fontsource-variable/playfair-display";

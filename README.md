@@ -1,30 +1,50 @@
-# React + TypeScript + Vite
+# Project Title: Scrimba Basics Solo Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
 
-Currently, two official plugins are available:
+This project is a responsive static page created with React, TailwindCSS, and TypeScript. It serves as a solution to the solo project assignment in Module 2 of the Scrimba React Basics course. Although I was provided with a Figma design, I made several modifications to suit my learning and design preferences.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## Expanding the ESLint configuration
+- **Responsive Design**: Looks great on mobile and desktop devices.
+- **React**: Reusable components.
+- **TailwindCSS**: Styling and creating a responsive layout.
+- **TypeScript**: Static typing and decalaring interface for data.
+- **Props and Spread Syntax**: I used React's spread syntax with props to efficiently pass data to components.
+- **Map Function**: Used for generating dynamic lists in React.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## New Concepts Explored
 
-- Configure the top-level `parserOptions` property like this:
+- **TailwindCSS**: Learned to set up and use TailwindCSS CSS styling.
+- **TypeScript**: Creation and use of interfaces.
+- **ShadCN Components**: Although not utilized in this project, I explored how to set them up for future use.
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+## Want To Add
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+While this project is complete, there are additional features and tools I plan to integrate in the future:
+
+- **ShadCN Components**: Incorporate these components to further enhance the UI.
+- **Additional Features**: Continuously improve the page with new functionalities and design elements.
+
+## Conclusion
+
+This project was a fantastic learning experience, allowing me to deepen my understanding of React, TailwindCSS, and TypeScript. I enjoyed the process and am excited to apply these skills in future projects.
+
+## How to Run the Project
+
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/ofthewildfire/react-solo-project-travel-journal
+   ```
+2. **Navigate to the project directory**:
+   ```bash
+   cd react-solo-project-travel-journal
+   ```
+3. **Install dependencies**:
+   ```bash
+   npm install
+   ```
+4. **Run the project**:
+   ```bash
+   npm start
+   ```

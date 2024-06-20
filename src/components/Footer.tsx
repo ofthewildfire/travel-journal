@@ -1,3 +1,5 @@
+import React from "react";
+
 const Footer = () => {
   return (
     <footer className="w-full p-5 text-center flex items-center justify-center gap-1">

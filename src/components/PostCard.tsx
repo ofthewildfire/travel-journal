@@ -1,7 +1,7 @@
 // const React = require("react");
 
 const PostCard = ({ post }: any) => {
-  console.log(post.title);
+  // console.log(post.title);
   return (
     <div
       key={post.title}

@@ -3,8 +3,8 @@ import "@fontsource-variable/playfair-display";
 import DataType from "./interfaces/DataInterface";
 import data from "./data.ts";
 
-import PostCard from "./components/PostCard";
-import Footer from "./components/Footer";
+import PostCard from "./components/PostCard.tsx";
+import Footer from "./components/Footer.tsx";
 
 function App() {
   const travelData: DataType[] = data;

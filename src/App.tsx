@@ -1,7 +1,7 @@
 import React from "react";
 import "@fontsource-variable/playfair-display";
 import DataType from "./interfaces/DataInterface";
-import data from "./data";
+import data from "./data.ts";
 
 import PostCard from "./components/PostCard";
 import Footer from "./components/Footer";
